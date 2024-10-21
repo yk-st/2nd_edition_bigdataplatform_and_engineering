@@ -65,8 +65,9 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 ずるものがあります。第1章からの本編解説の理解の助けになるように、RDBの基本を解説します。
 
 ## 本書で登場するCodes
+本書で登場するサンプルコードは以下に配置しております。
 
-[codes](codes/)
+[codes](https://github.com/yk-st/2nd_edition_bigdataplatform_and_engineering/tree/main/codes)
 
 # 正誤表
 ## 初版修正情報
