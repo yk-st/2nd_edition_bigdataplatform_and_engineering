@@ -1,0 +1,28 @@
+- 為替データテーブル
+CREATE DATABASE master;
+CREATE EXTERNAL TABLE IF NOT EXISTS `master`.`currency_rates` (
+    currency STRING,
+    rates DOUBLE
+)
+PARTITIONED BY (retrieval_date STRING)
+STORED AS PARQUET
+LOCATION 's3://hoge.data.platform.bucket/gold/master.db/currency_rates/'
+TBLPROPERTIES ('parquet.compress'='snappy');
+
+- 売り上げデータテーブル
+CREATE DATABASE money;
+CREATE EXTERNAL TABLE IF NOT EXISTS `money`.`salesdata` (
+    page INT,
+    purchase_id STRING,
+    scale STRING,
+    store_name STRING,
+    `time` TIMESTAMP,
+    sales DOUBLE,
+    sales_jpy DOUBLE,
+    ymd DATE,
+    hh STRING
+)
+PARTITIONED BY (retrieval_date STRING, store_id STRING)
+STORED AS PARQUET
+LOCATION 's3://hoge.data.platform.bucket/gold/companyA/shop/sales/asset/money.db/salesdata/'
+TBLPROPERTIES ('parquet.compress'='snappy');

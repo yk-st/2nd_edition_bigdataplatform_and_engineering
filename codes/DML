@@ -1,0 +1,18 @@
+-- 時間ごとに集計する
+SELECT hh,
+	store_id,
+	sum(sales_jpy) as "売り上げ"
+FROM "money"."salesdata"
+where retrieval_date = '2024-06-24'
+group by ymd,
+	hh,
+	store_id
+
+-- 日付ごとに集計する
+SELECT ymd,
+	store_id,
+	sum(sales_jpy) as "売り上げ"
+FROM "money"."salesdata"
+where retrieval_date = '2024-06-24'
+group by ymd,
+	store_id
