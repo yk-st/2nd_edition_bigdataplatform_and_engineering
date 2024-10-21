@@ -8,6 +8,7 @@
   <meta property="og:image" content="https://github.com/yk-st/2nd_edition_bigdataplatform_and_engineering/blob/main/title.png" />
   <meta property="og:url" content="https://yk-st.github.io/2nd_edition_bigdataplatform_and_engineering/" />
   <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/title.png" type="image/x-icon">
 </head>
 
 <div style="text-align: center;">
