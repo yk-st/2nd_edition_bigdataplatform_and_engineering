@@ -2,6 +2,14 @@
 本リポジトリは、技術評論社から出版された以下の書籍 のWeb補足情報を提供するためのものです。
 書籍に関する「正誤表」や関連情報をまとめています。
 
+<head>
+  <meta property="og:title" content="Data Platform" />
+  <meta property="og:description" content="Data Platform" />
+  <meta property="og:image" content="title.png" />
+  <meta property="og:url" content="https://yk-st.github.io/2nd_edition_bigdataplatform_and_engineering/" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+
 <div style="text-align: center;">
   <img src="title.png" width="350" height="450">
 </div>
