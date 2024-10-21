@@ -63,40 +63,28 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 　ビッグデータに関する技術要素は、リレーショナルデータベース（relational database、RDB）の技術要素と通
 ずるものがあります。第1章からの本編解説の理解の助けになるように、RDBの基本を解説します。
 
+## 本書で登場するCodes
+
+[codes](codes/)
+
 # 正誤表
 ## 初版修正情報
-
-### 38p 図2.2
-- 正: product_ name
-- 誤: product_name
-
-### 38p 図4.4(列指向フォーマット)
-- 正: 3
-- 誤: idが空白になっている
-
-### 174p というように、Explain
-- 正: このように、Eplainログも一行づつ意味がありアクセス状況を読み取ることが可能です。
-- 誤: というように、Explainログからも読み取ることが可能です。
-
-### 178p データマートの生成停止の条件を定める
-- 正: 10以下は周知の上削除
-- 誤: 10以外は周知の上削除
 
 # 動作環境
 本書を作成時に利用した筆者の動作の確認環境は以下です。
 
-- M1 Max MacBook Pro(2021)
-- Java 11(openjdk 11.0.12)
-- Spark 3.2.0
-- Python 3.8
-- Docker Desktop(4.3.1 (72247))
-- Ubuntu 18.10 (Cosmic Cuttlefish)
+-（ローカル環境）MacBook Pro（M1 Max, 2021）
+- Docker Desktop 4.34.2（167172）
+- Python 3.12.4
+- Java 8（Embulkで利用） / Java17（Embulk以外, 17.0.12）
+- Spark 3.5.3
+※第9章（クラウド環境）ではGlue 4.0（Spark 3.2）、Glue 4.0/Python shell（Python 3.9）を使用
 
 # 著者について
 普段はデータを活用する企画業務に従事  
 ビッグデータのシステム構築から活用までアドバイザリーをやっています。
 
-- Twitter：[@yuki_saito_en](https://twitter.com/yuki_saito_en)
+- X(Twitter)：[@yuki_saito_en](https://twitter.com/yuki_saito_en)
 - LinkedIn: https://www.linkedin.com/in/yuki-saito-40872b217/
 - Note: https://note.com/yukinkoyuki
 - MENTA(アドバイザリー):https://menta.work/member/dashboard
@@ -117,9 +105,12 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 1. **「DX(デジタルトランスフォーメーション)のためのビッグデータ活用とデータ活用企画のつくりかたまで」**
 https://www.udemy.com/course/dx-bigdata/?referralCode=B9C9B09E1333C4C3FA49
 
+2. **「【実戦で学ぶ速習講座】リレーショナルデータベースで始めるデータ活用とデータ分析のためのSQLを学ぼう」**
+https://www.udemy.com/course/business_sql/?referralCode=24DC6166DC34A63E61A5
+
 # エンジニア向け他のコース情報
 1. **「データサイエンスのための前処理入門PythonとSparkで学ぶビッグデータエンジニアリング(PySpark) 速習講座」**
-https://www.udemy.com/course/python-spark-pyspark/?referralCode=E67BF8B61F65866794EB  
+https://www.udemy.com/course/python-spark-pyspark/?referralCode=E67BF8B61F65866794EB
 
 2. **「【PythonとSparkで始めるデータマネジメント入門】 ビッグデータレイクのための統合メタデータ管理入門」**
 https://www.udemy.com/course/draft/4367192/?referralCode=AB48AD18D10E55DCB0E5
@@ -130,3 +121,8 @@ https://www.udemy.com/course/python-spark-streaming/?referralCode=F5E3B429A5C474
 4. **「超速入門!【データサイエンスへの最初の一歩】PythonとSparkで学ぶデータ分析のための前処理と分散処理 一気見講座」**
 https://www.udemy.com/course/draft/4415660/?referralCode=EF89D5D240FB483AF4A1
 
+5. **「【実戦で学ぶデータ分析基盤構築講座】ローカル端末で1から始めるデータ分析基盤の構築とデータ活用のための活動」**
+https://www.udemy.com/course/dataplatform_local/?referralCode=FFAE0C4DC02083D63DC9
+
+6. **「【実戦で学ぶ基盤構築】ローカル端末で作り理解するエンジニアのための機械学習基盤の作成とMLOps」**
+https://www.udemy.com/course/mlops-pf-and-ml/?referralCode=E6DF74BCFAE60315F390
