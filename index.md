@@ -5,7 +5,7 @@
 <head>
   <meta property="og:title" content="Data Platform" />
   <meta property="og:description" content="Data Platform" />
-  <meta property="og:image" content="title.png" />
+  <meta property="og:image" content="https://github.com/yk-st/2nd_edition_bigdataplatform_and_engineering/blob/main/title.png" />
   <meta property="og:url" content="https://yk-st.github.io/2nd_edition_bigdataplatform_and_engineering/" />
   <meta name="twitter:card" content="summary_large_image" />
 </head>
