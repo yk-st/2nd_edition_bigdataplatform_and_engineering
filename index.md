@@ -4,13 +4,13 @@
 
 <img src="title.png" width="350" height="450">
 
-- title : [エンジニアのためのデータ分析基盤入門](https://amzn.to/3L8kIti)
-- Publisher : 技術評論社 (February 24, 2022)
-- Publication date :  February 24, 2022
+- title : [改訂新版［エンジニアのための］データ分析基盤入門＜基本編＞　データ活用を促進する！ プラットフォーム＆データ品質の考え方](https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%EF%BC%BB%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%EF%BC%BD%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90%E5%9F%BA%E7%9B%A4%E5%85%A5%E9%96%80%EF%BC%9C%E5%9F%BA%E6%9C%AC%E7%B7%A8%EF%BC%9E-%E3%83%87%E3%83%BC%E3%82%BF%E6%B4%BB%E7%94%A8%E3%82%92%E4%BF%83%E9%80%B2%E3%81%99%E3%82%8B%EF%BC%81-%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%EF%BC%86%E3%83%87%E3%83%BC%E3%82%BF%E5%93%81%E8%B3%AA%E3%81%AE%E8%80%83%E3%81%88%E6%96%B9-%E6%96%8E%E8%97%A4-%E5%8F%8B%E6%A8%B9/dp/4297145634/ref=rvi_d_sccl_2/357-4350168-5157710?pd_rd_w=sr8Pw&content-id=amzn1.sym.a4dc92d7-7100-437e-b3e3-2349e8298523&pf_rd_p=a4dc92d7-7100-437e-b3e3-2349e8298523&pf_rd_r=H0HGY9GH197DSCGHFQ94&pd_rd_wg=rdLFd&pd_rd_r=f1b1765d-b4df-4ee6-a908-3d3e0e3f7262&pd_rd_i=4297145634&psc=1)
+- Publisher : 技術評論社 (Nov. 5, 2024)
+- Publication date :  Nov. 5, 2024
 - Language :  Japanese
-- Tankobon Softcover : 272 pages
-- ISBN-10 : 4297127245
-- ISBN-13  : 978-4297127244
+- Tankobon Softcover : 368 pages
+- ISBN-10 : 4297145634
+- ISBN-13  : 978-4297145637
 
 # 本書の構成
 各章のハイライトです。
