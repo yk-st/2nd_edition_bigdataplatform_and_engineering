@@ -107,11 +107,11 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 ### セマンティックレイヤーの解説(図表等の作成)の際に参考にさせていただきました。
 ※解説は、複数の情報源を参考にして私の解釈をまぜつつ粒度の変更や一般化して作成しております。
 
-- [](https://zenn.dev/churadata/articles/e779a733c5fb35)
-- [](https://dev.classmethod.jp/articles/developersio-2023-semantic-layer-difference-looker-and-dbt/)
-- [](https://xtech.nikkei.com/atcl/nxt/column/18/02747/101100019/?P=2)
-- [](https://note.com/morph_db/n/nf7b8a91685b7)
-- [](https://www.google.com/search?sca_esv=e91d65085a9a29e8&sxsrf=ADLYWILeDFGtooU_5DqPSKIX0z2hA_Hm_A:1729824676977&q=%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC&udm=2&fbs=AEQNm0BqbPbAzSj6PhNr7nv9Ltx-6USFDRgI5TOlyOm1Qvg_YYuw210-mR2WXVdD_Fc0W_NN5c3zYty18pBR2NvHikxHz1pwXv38R-eCcvsE6nYariIo4RZoct81SmGYGzyXvrrAvz-5hoPyvh-4cdysV6TCCOALPEe6sdSmWeb23YkYpyit0PXwgbpUKJROOE5sLeJvYK5mulBnRw5yPLltWD1e5liml5j_NYL0PKHvncfM7YmGgZM&sa=X&sqi=2&ved=2ahUKEwj-kZSLw6iJAxW_dvUHHQd4C44QtKgLegQIDBAB&biw=1882&bih=908&dpr=2#vhid=giYYyCBiVsLtTM&vssid=mosaic)
+- [セマンティックレイヤー / Headless BIとは](https://zenn.dev/churadata/articles/e779a733c5fb35)
+- [DevelopersIO 2023でコードでデータ分析に関わる指標を管理できる「Semantic Layer」についてLookerとdbtの違いを話しました #devio2023](https://dev.classmethod.jp/articles/developersio-2023-semantic-layer-difference-looker-and-dbt/)
+- [生成AIを活用するデータ民主化、セマンティックレイヤーで支えるBI「Looker」](https://xtech.nikkei.com/atcl/nxt/column/18/02747/101100019/?P=2)
+- [ビジネス職のためのデータ基盤入門:セマンティックレイヤーの紹介](https://note.com/morph_db/n/nf7b8a91685b7)
+- [https://dev.classmethod.jp/articles/tableau-connect-to-dbt-semantic-layer/](https://www.google.com/search?sca_esv=e91d65085a9a29e8&sxsrf=ADLYWILeDFGtooU_5DqPSKIX0z2hA_Hm_A:1729824676977&q=%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC&udm=2&fbs=AEQNm0BqbPbAzSj6PhNr7nv9Ltx-6USFDRgI5TOlyOm1Qvg_YYuw210-mR2WXVdD_Fc0W_NN5c3zYty18pBR2NvHikxHz1pwXv38R-eCcvsE6nYariIo4RZoct81SmGYGzyXvrrAvz-5hoPyvh-4cdysV6TCCOALPEe6sdSmWeb23YkYpyit0PXwgbpUKJROOE5sLeJvYK5mulBnRw5yPLltWD1e5liml5j_NYL0PKHvncfM7YmGgZM&sa=X&sqi=2&ved=2ahUKEwj-kZSLw6iJAxW_dvUHHQd4C44QtKgLegQIDBAB&biw=1882&bih=908&dpr=2#vhid=giYYyCBiVsLtTM&vssid=mosaic)
 
 # 動作環境
 本書を作成時に利用した筆者の動作の確認環境は以下です。
