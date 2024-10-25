@@ -105,7 +105,8 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 筆者が図表等を作成する際に参考とさせていただいたドキュメント群です。
 
 ### セマンティックレイヤーの解説(図表等の作成)の際に参考にさせていただきました。
-※解説は、複数の情報源を参考にして私の解釈をまぜつつ粒度の変更や一般化して作成しております。
+
+本文で言及している[DBT公式](https://www.getdbt.com/product/semantic-layer)を元に以下の情報も参考にさせていただいております。
 
 - [セマンティックレイヤー / Headless BIとは](https://zenn.dev/churadata/articles/e779a733c5fb35)
 - [DevelopersIO 2023でコードでデータ分析に関わる指標を管理できる「Semantic Layer」についてLookerとdbtの違いを話しました #devio2023](https://dev.classmethod.jp/articles/developersio-2023-semantic-layer-difference-looker-and-dbt/)
