@@ -90,31 +90,10 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 3. (p72) ：❶ではサードパーティのデータソースから -> 、　❶ではセカンドパーティのデータソースから
 4. (p319)：サードパーティ企業とのデータ連携などでプロジェクトを進 -> サードパーティやセカンドパーティ企業とのデータ連携などでプロジェクトを進
 
-# 動作環境
-本書を作成時に利用した筆者の動作の確認環境は以下です。
-
--（ローカル環境）MacBook Pro（M1 Max, 2021）
-- Docker Desktop 4.34.2（167172）
-- Python 3.12.4
-- Java 8（Embulkで利用） / Java17（Embulk以外, 17.0.12）
-- Spark 3.5.3
-※第9章（クラウド環境）ではGlue 4.0（Spark 3.2）、Glue 4.0/Python shell（Python 3.9）を使用
-
-# 著者について
-普段はデータを活用する企画業務に従事  
-ビッグデータのシステム構築から活用までアドバイザリーをやっています。
-
-- X(Twitter)：[@yuki_saito_en](https://twitter.com/yuki_saito_en)
-- LinkedIn: https://www.linkedin.com/in/yuki-saito-40872b217/
-- Note: https://note.com/yukinkoyuki
-- MENTA(アドバイザリー):https://menta.work/member/dashboard
-- Udemy(オンライン講師): https://www.udemy.com/user/yuki-saito-7/
-
 # 本書内で紹介している書籍や参考情報
 ここではビッグデータ関連書籍として、書籍内で紹介している書籍やおすすめの書籍について紹介します。
 
 ## 図書
-解説の
 
 - [Spark: The Definitive Guide: Big Data Processing Made Simple (English Edition)](https://amzn.to/3nQ90ts)
 - [Kafka: The Definitive Guide (English Edition)](https://amzn.to/3nNMcdU)
@@ -135,6 +114,26 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 - https://note.com/morph_db/n/nf7b8a91685b7
 - https://www.google.com/search?sca_esv=e91d65085a9a29e8&sxsrf=ADLYWILeDFGtooU_5DqPSKIX0z2hA_Hm_A:1729824676977&q=%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC&udm=2&fbs=AEQNm0BqbPbAzSj6PhNr7nv9Ltx-6USFDRgI5TOlyOm1Qvg_YYuw210-mR2WXVdD_Fc0W_NN5c3zYty18pBR2NvHikxHz1pwXv38R-eCcvsE6nYariIo4RZoct81SmGYGzyXvrrAvz-5hoPyvh-4cdysV6TCCOALPEe6sdSmWeb23YkYpyit0PXwgbpUKJROOE5sLeJvYK5mulBnRw5yPLltWD1e5liml5j_NYL0PKHvncfM7YmGgZM&sa=X&sqi=2&ved=2ahUKEwj-kZSLw6iJAxW_dvUHHQd4C44QtKgLegQIDBAB&biw=1882&bih=908&dpr=2#vhid=giYYyCBiVsLtTM&vssid=mosaic
 
+# 動作環境
+本書を作成時に利用した筆者の動作の確認環境は以下です。
+
+-（ローカル環境）MacBook Pro（M1 Max, 2021）
+- Docker Desktop 4.34.2（167172）
+- Python 3.12.4
+- Java 8（Embulkで利用） / Java17（Embulk以外, 17.0.12）
+- Spark 3.5.3
+※第9章（クラウド環境）ではGlue 4.0（Spark 3.2）、Glue 4.0/Python shell（Python 3.9）を使用
+
+
+# 著者について
+普段はデータを活用する企画業務に従事  
+ビッグデータのシステム構築から活用までアドバイザリーをやっています。
+
+- X(Twitter)：[@yuki_saito_en](https://twitter.com/yuki_saito_en)
+- LinkedIn: https://www.linkedin.com/in/yuki-saito-40872b217/
+- Note: https://note.com/yukinkoyuki
+- MENTA(アドバイザリー):https://menta.work/member/dashboard
+- Udemy(オンライン講師): https://www.udemy.com/user/yuki-saito-7/
 
 # その他補助になると考えられるもの
 本書で頻繁に出てくるSpark(Pyspark)やKafka、メタデータストア、ストリーミングをコード中心に駆け回ってみる講座たちです。  
