@@ -90,7 +90,6 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 3. (p72) ：❶ではサードパーティのデータソースから -> 、　❶ではセカンドパーティのデータソースから
 4. (p319)：サードパーティ企業とのデータ連携などでプロジェクトを進 -> サードパーティやセカンドパーティ企業とのデータ連携などでプロジェクトを進
 
-
 # 動作環境
 本書を作成時に利用した筆者の動作の確認環境は以下です。
 
@@ -111,12 +110,31 @@ Appendix　［ビッグデータでも役立つ］RDB基礎講座
 - MENTA(アドバイザリー):https://menta.work/member/dashboard
 - Udemy(オンライン講師): https://www.udemy.com/user/yuki-saito-7/
 
-# 本書内で紹介している書籍など
+# 本書内で紹介している書籍や参考情報
 ここではビッグデータ関連書籍として、書籍内で紹介している書籍やおすすめの書籍について紹介します。
+
+## 図書
+解説の
 
 - [Spark: The Definitive Guide: Big Data Processing Made Simple (English Edition)](https://amzn.to/3nQ90ts)
 - [Kafka: The Definitive Guide (English Edition)](https://amzn.to/3nNMcdU)
 - [データ指向アプリケーションデザイン ―信頼性、拡張性、保守性の高い分散システム設計の原理](https://amzn.to/3tQh69g)
+- [データエンジニアリングの基礎 ―データプロジェクトで失敗しないために](https://www.amazon.co.jp/%E3%83%87%E3%83%BC%E3%82%BF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%AE%E5%9F%BA%E7%A4%8E-%E2%80%95%E3%83%87%E3%83%BC%E3%82%BF%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%A7%E5%A4%B1%E6%95%97%E3%81%97%E3%81%AA%E3%81%84%E3%81%9F%E3%82%81%E3%81%AB-Joe-Reis/dp/4814400659/ref=asc_df_4814400659/?tag=jpgo-22&linkCode=df0&hvadid=707442440817&hvpos=&hvnetw=g&hvrand=12723851409254544187&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198235&hvtargid=pla-2283996874944&psc=1&mcid=85eeeaa3c6473a97b6371305ba466115&th=1&psc=1&gad_source=1)
+- [ZooKeeperによる分散システム管理](https://www.amazon.co.jp/ZooKeeper%E3%81%AB%E3%82%88%E3%82%8B%E5%88%86%E6%95%A3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86-Flavio-Junqueira/dp/4873116937)
+
+## リファレンス
+筆者が図表等を作成する際に参考とさせていただいたドキュメント群です。
+
+### セマンティックレイヤーの解説(図表等の作成)の際に参考にさせていただきました。
+※解説は、複数の情報源を参考にして私の解釈をまぜつつ一般化して作成しております。
+
+https://www.getdbt.com/blog/how-the-dbt-semantic-layer-works
+https://zenn.dev/churadata/articles/e779a733c5fb35
+https://dev.classmethod.jp/articles/developersio-2023-semantic-layer-difference-looker-and-dbt/
+https://xtech.nikkei.com/atcl/nxt/column/18/02747/101100019/?P=2
+https://note.com/morph_db/n/nf7b8a91685b7
+https://www.google.com/search?sca_esv=e91d65085a9a29e8&sxsrf=ADLYWILeDFGtooU_5DqPSKIX0z2hA_Hm_A:1729824676977&q=%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC&udm=2&fbs=AEQNm0BqbPbAzSj6PhNr7nv9Ltx-6USFDRgI5TOlyOm1Qvg_YYuw210-mR2WXVdD_Fc0W_NN5c3zYty18pBR2NvHikxHz1pwXv38R-eCcvsE6nYariIo4RZoct81SmGYGzyXvrrAvz-5hoPyvh-4cdysV6TCCOALPEe6sdSmWeb23YkYpyit0PXwgbpUKJROOE5sLeJvYK5mulBnRw5yPLltWD1e5liml5j_NYL0PKHvncfM7YmGgZM&sa=X&sqi=2&ved=2ahUKEwj-kZSLw6iJAxW_dvUHHQd4C44QtKgLegQIDBAB&biw=1882&bih=908&dpr=2#vhid=giYYyCBiVsLtTM&vssid=mosaic
+
 
 # その他補助になると考えられるもの
 本書で頻繁に出てくるSpark(Pyspark)やKafka、メタデータストア、ストリーミングをコード中心に駆け回ってみる講座たちです。  
